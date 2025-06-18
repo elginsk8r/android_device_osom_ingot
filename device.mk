@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service
+    android.hardware.biometrics.fingerprint-service.lineage
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/betterlife_inputdev.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/betterlife_inputdev.kl \
