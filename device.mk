@@ -169,6 +169,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.lineage
 
+$(call soong_config_set,lineage_hardware_biometrics,fpdata_path,/data/vendor_de/{}/fpdata)
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/betterlife_inputdev.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/betterlife_inputdev.kl \
     $(LOCAL_PATH)/idc/betterlife_inputdev.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/betterlife_inputdev.idc
